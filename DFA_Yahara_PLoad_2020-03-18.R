@@ -78,7 +78,7 @@ print('',quote=F)
 print('detrending model',quote=F)
 print(summary(lm0))
 
-# Detrending slightly improves Hurst exponent
+# Detrending slightly improves fit of Hurst exponent
 print('',quote=F)
 print('Is Hurst exponent > 0.5 ?',quote=F)
 H.estimate = hurstexp(Xdt)
